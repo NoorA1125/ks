@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.05rem;
+}
+
+body {
+    font-size: 0.9375rem;
+    line-height: 1.7rem;
+}
+
+ul li {
+    list-style: none;
+}
+p {
+    color: #363636;
+}
+
+/*Navbar  */
+.navbar {
+    background-color: transparent;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.navbar-item img {
+    max-height: 2rem;
+}
+
+.hero.is-link .navbar-item {
+    color: #fff;
+}
+
+.hero.is-link .navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#ffff;
+}
+section.hero.is-link.is-fullheight-with-navbar {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/assets/img/kevinsamuels.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/assets/img/kevinsamuels.jpg"); /* The least supported option. */
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;    
+}
+
+div.hero-body {
+    margin: 0 auto;
+}
+nav.navbar {
+    background-color: transparent;
+}
+
+.scroll{
+    background-color: #384883;
+}
+
+
+.main-text {
+    font-size: 5.4rem;
+    font-weight: 100;
+}
+
+.subtitle {
+    color: #384883;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.main-text-sub {
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 2.1rem;
+    font-weight: 100;
+    margin-top: -22px;
+}
+
+button.btn {
+    border: 2px solid #ffff;
+    margin-top: 2.15rem;
+    color: #ffff;
+    background-color: transparent;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+
+button.btn:hover{
+    color: #384883;
+    border: #384883;
+    background-color: #fff;
+    transition: 0.7s;
+
+}
+
+input.input, textarea.textarea {
+    border-radius: 0px;
+}
+
+/* .titles {
+    font-size: 0.9375rem;
+} */
+.paragraph {
+    margin-top: 2rem;
+}
+
+.columns, .column {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.services {
+    background-color: #FAFAFA;
+}
+
+.services .title {
+    color: #000;
+}
+
+.services p {
+    color: #000;
+    padding-bottom: 4rem;
+}
+/* .column.title {
+    font-size: 0.9375rem;
+} */
+
+.column > span {
+    padding-bottom: 20px;
+}
+
+span.service-icons img{
+    width: 50px;
+    height: auto;
+}
+.titles {
+    font-size: 1.5rem;
+    color: #000;
+}
+.options {
+  display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 769px){
+.column.is-one-quarter, .column.is-one-quarter-tablet {
+    flex: none;
+    width: 23%;
+}}
+
+/* .column.is-one-fifth {
+    max-width: 270px;
+    width: 100%;
+} */
+
+div.card {
+    max-width: 400px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.service-icons {
+    display: inline-flex;
+}
+
+.service-icons > h5 {
+    padding-left: 10px;
+}
+
+.banner {
+    background: -webkit-linear-gradient(rgba(56,72,131, 0.75), rgba(56,72,131, 0.75)), url("/assets/img/Oklahoma.jpg");
+    background: linear-gradient(rgba(56,72,131, 0.75), rgba(56,72,131, 0.75)), url("/assets/img/Oklahoma.jpg"); /* The least supported option. */
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    text-align: center;  
+}
+
+.banner > .columns {
+    min-height: 40vh;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text {
+    position: relative;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2.2875rem;
+}
+
+.submit-btn {
+    width: 100px;
+}
+
+/*Footer */
+.content {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content > div {
+    display: inline-block;
+    width: calc(25% - 4px);
+    min-width: 300px;
+}
+
+.footer-icons {
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-section {
+    display: block;
+}
+input {
+    border-width: 1px;
+    border-radius: 0px;
+    /* background-color: #dbdbdb; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+.footer-input {
+    width: 235px;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: calc(.75em - 1px);
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+    height: 2.5em;
+}
+
+.donation {
+    width: 235px;
+    margin-top: 10px;
+    background-color: #384883;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.donation a {
+    color: #fff;
+}
+.donation:hover{
+    color: #fff;
+    background-color: #293252;
+}
+
+/* 
+1st Pic
+Photo by <a href="https://unsplash.com/@mtsoledade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcio Tonoli Soledade</a> on <a href="https://unsplash.com/s/photos/suit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+2nd Pic
+Photo by <a href="https://unsplash.com/@spencerdavis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spencer Davis</a> on <a href="https://unsplash.com/s/photos/suit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+3rd Pic
+Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/s/photos/oklahoma-city?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+*/
+
+
+
+
+
+/*Queries */
+/* @media screen and (min-width: 769px), print{
+.column.is-half, .column.is-half-tablet {}} */
