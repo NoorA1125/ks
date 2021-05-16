@@ -37,8 +37,8 @@ p {
     color:#ffff;
 }
 section.hero.is-link.is-fullheight-with-navbar {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../img/kevinsamuels.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(".../../img/kevinsamuels.jpg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("https://https://noora1125.github.io/ks/assets/img/kevinsamuels.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("https://https://noora1125.github.io/ks/assets/img/kevinsamuels.jpg"); /* The least supported option. */
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
